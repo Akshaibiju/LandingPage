@@ -1,0 +1,100 @@
+.navbar .main-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    justify-content: space-evenly;
+}
+.navbar {
+    background-image: linear-gradient(450deg , #80a1d7 , #9397b9);
+    /* border-radius: 20px; */
+    height: 60px;
+}
+.navbar img {
+    position: absolute;
+}
+@media  (max-width: 508.99px) {
+    .navbar img {
+        position: fixed;
+        display: none;
+    }
+    
+}
+.navbar .main-content a {
+    text-decoration: none;
+    color: #f4f9ff;
+}
+.Aclass {
+    background-image: url(../image/editor-code-headphones-programming.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-class {
+    width: 100%;
+    display: flex;
+    height: 50rem;
+    background-color: transparent; /*#7d76a2;*/
+}
+.home-class .left-home {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-class .left-home h1 {
+    color: #fff; /*#8aaede */
+    font-family: system-ui;
+    font-size: 50px;
+}
+.home-class .left-home h4 {
+    color: #fff;
+    font-family: system-ui;
+    font-size: 20px;
+    position: relative;
+    display: grid;
+    top: -16rem;
+}
+.home-class .right-home {
+    width: 100%;
+}
+.about-class {
+    width: 100%;
+    height: 25rem;
+    background-color: transparent;
+    display: grid;
+}
+.about-class .upper-class {
+    width: 100%;
+    height: 100%;
+}
+.about-class .lower-class {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #f4f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-class .lower-class .side-class {
+    width: 100%;
+    font-family: system-ui;
+    
+}
+.about-class .lower-class .side-class h2 {
+    font-size: 20px;
+    color: rgb(38, 30, 154);
+    text-align: center;
+}
+.about-class .lower-class .side-class h4 {
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(93, 107, 143);
+    font-size: 17px;
+    text-align: center;
+}

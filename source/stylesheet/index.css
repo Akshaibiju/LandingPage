@@ -1,3 +1,9 @@
+* {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 .navbar .main-content {
     width: 100%;
     display: flex;
@@ -63,14 +69,11 @@
 }
 .about-class {
     width: 100%;
-    height: 25rem;
+    height: 582.5px;
     background-color: transparent;
     display: grid;
 }
-.about-class .upper-class {
-    width: 100%;
-    height: 100%;
-}
+
 .about-class .lower-class {
     width: 100%;
     height: 100%;
@@ -97,4 +100,144 @@
     color: rgb(93, 107, 143);
     font-size: 17px;
     text-align: center;
+}
+.about-class .upper-class {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-class .upper-class .side-div {
+    width: 313.333333333;
+    height: 100%;
+    background-color: #f3f7fc;
+    z-index: 10000;
+    display: grid;
+    justify-content: center;
+    aspect-ratio: 3/2;
+}
+.about-class .upper-class .side-div .logo {
+    width: 200px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+.about-class .upper-class .side-div h1 {
+    font-size: 20px;
+    color: rgb(38, 30, 154);
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    width: calc(100% - 47px);
+}
+.about-class .upper-class .side-div h4 {
+    line-height: 22px;
+    font-size: 13px;
+    text-align: center;
+    width: calc(100% - 48px);
+    color: rgb(93, 107, 143);
+}
+
+.new-wall {
+    background-image: url(//d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/394fd70e-o-saas-video-background_11ik0u000000000000001o.jpg);
+    height: 29rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    line-height: 1px;
+    aspect-ratio: 3/2;
+    align-items: center;
+    justify-items: center;
+}
+.new-wall h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21px;
+    color: rgb(93, 107, 143);
+}
+.new-wall h4 {
+    line-height: 22px;
+    font-size: 13px;
+    text-align: center;
+    width: calc(100% - 48px);
+    color: rgb(93, 107, 143);
+    align-content: space-evenly;
+}
+
+.mid-wall {
+    height: 750px;
+    width: 100%;
+    background-color: #f3f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-wall .side-div {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.mid-wall .side-div h1 {
+    font-size: 32px;
+    color: rgb(38, 30, 154);
+    font-weight: 700;
+    font-style: normal;
+    width: calc(100% - 315px);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+.mid-wall .side-div h4 {
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(93, 107, 143);
+    font-size: 16px;
+}
+.mid-wall .side-div .side-sec-div {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: space-between;
+}
+.mid-wall .side-div .side-child {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mid-wall .side-div .side-child img{
+    aspect-ratio: 4/2;
+    object-fit: contain;
+    width: 9rem;
+}
+.mid-wall .side-div .side-child .writing-class {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+}
+.mid-wall .side-div .side-child .writing-class h1 {
+    font-size: 22px;
+    color: rgb(38, 30, 154);
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+}
+.mid-wall .side-div .side-child .writing-class h4 {
+    font-size: 11px;
+    color: rgb(38, 30, 154);
+    font-weight: 700;
+    font-style: normal;
+    width: calc(100% - 29px);
+    text-align: inherit;
+}
+#changing {
+    height: 70%;
 }

@@ -232,7 +232,7 @@ body::-webkit-scrollbar {
 }
 .mid-wall .side-div .side-child .writing-class h4 {
     font-size: 11px;
-    color: rgb(38, 30, 154);
+    color: rgb(93, 107, 143);
     font-weight: 700;
     font-style: normal;
     width: calc(100% - 29px);
@@ -240,4 +240,58 @@ body::-webkit-scrollbar {
 }
 #changing {
     height: 70%;
+}
+
+.secondlast-wall {
+    background-image: url(//d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/c7d5826f-o-saas-pricing-hero_1000000000000000000028.png);
+    height: 29rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+.secondlast-wall .slw-child {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    aspect-ratio: 3/2;
+}
+.secondlast-wall h1 {
+    font-size: 32px;
+    color: rgb(38, 30, 154);
+    font-weight: 700;
+    font-style: normal;
+}
+.secondlast-wall .slw-child img {
+    aspect-ratio: 3/2;
+    width: 45px;
+    height: 45px;
+}
+
+.final-wall {
+    height: 320px;
+    width: 100%;
+    background-color: #f3f7fc;
+    display: grid;
+}
+.final-wall .uppersix {
+    height: fit-content;
+    width: 100%;
+    display: grid;
+}
+.final-wall .lowerfive {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.final-wall .lowerfive .upperrank {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
 }

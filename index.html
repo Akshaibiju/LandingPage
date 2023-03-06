@@ -11,11 +11,11 @@
 </head>
 <body class="Aclass">
     <nav class="navbar navbar-default navbar-fixed-top navbar-light">
-        <img class="navbar-brand" src="./source/image/57704b87365ec7a5be1a3364bf1e4058-removebg-preview.png" width="100px">
+        <img class="navbar-brand rack" src="./source/image/57704b87365ec7a5be1a3364bf1e4058-removebg-preview.png" width="100px">
         <div class="main-content">
-            <a class="home" href="#">Home</a>
-            <a class="gate" href="#">Gate</a>
-            <a class="hire" href="#">Hire</a>
+            <a class="home" id="nv-child" href="#home">Home</a>
+            <a class="gate" id="nv-child" href="#gate">Gate</a>
+            <a class="hire" id="nv-child" href="#hire">Hire</a>
         </div>
     </nav>
     <div class="container-fullscreen">
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <div class="new-wall" style="width: 100%;">
+    <div class="new-wall" style="width: 100%;" id="gate">
         <img class="logo" src="./source/image/icons8-github-48.png">
         <h1>View Projects</h1>
         <h4>You Can Inspect My OnGoing Projects Or Previous projects some of them Is Complete and Some OF Them Are InComplete</h4>
@@ -96,31 +96,42 @@
         </div>
     </div>
 
-    <div class="secondlast-wall">
+    <div class="secondlast-wall" id="hire">
         <h1>Active In Here</h1>
         <div class="slw-child">
-            <img src="./source/image/icons8-fiverr.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="./source/image/icons8-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-48.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="./source/image/icons8-freelancer-68.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="./source/image/icons8-facebook-48.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="./source/image/icons8-twitter-48.png"/>
+            <img class="fiverr" src="./source/image/icons8-fiverr.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="upwork" src="./source/image/icons8-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-48.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="freelancer" id="githubb" src="./source/image/icons8-freelancer-68.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="facebook" src="./source/image/icons8-facebook-48.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="twitter" src="./source/image/icons8-twitter-48.png"/>
         </div>
     </div>
 
     <div class="final-wall">
         <!-- Demon slayer fan and #animefan :) so thats why this name is like this-->
         <div class="uppersix">
-            <img class="rengoku" src="./source/image/57704b87365ec7a5be1a3364bf1e4058-removebg-preview.png" width="100px"/>
+            <img class="brand-one" src="./source/image/57704b87365ec7a5be1a3364bf1e4058-removebg-preview.png" width="100px" style="z-index: 10000;"/>
         </div>
         <div class="lowerfive">
             <div class="upperrank">
-                <span>Media</span>
+                <span class="head">Media</span><br>
+                <span class="body gh">Github</span>
+                <span class="body fr">Fiverr</span>
+                <span class="body uw">Upwork</span>
+                <span class="body fl">Freelancers</span>
+
             </div>
             <div class="upperrank">
-                <span>contact</span>
+                <span class="head">contact</span><br>
+                <span class="body">Email: <a href="mailto:Akshaibiju732@gmail.com">Akshaibiju732@gmail.com</a></span>
+                <span class="body">Email : <a href="mailto:Optionalindividual@gmail.com">Optionalindividual@gmail.com</a></span>
             </div>
             <div class="upperrank">
-                <span>About us</span>
+                <span class="head">About us</span><br>
+                <span class="body">Akshai Biju</span>
+                <span class="body">Web-Developer</span>
+                <span class="body">Alappuzhra Kerala India +91</span>
+                
             </div>
         </div>
     </div>
